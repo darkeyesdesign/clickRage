@@ -9,6 +9,7 @@
 
 ## Dependencies
 + [Compass](http://thesassway.com/beginner/getting-started-with-sass-and-compass) to organize CSS/SCSS
+    ++ Dig into the functionality in `config.rb`
 + [Brunch](http://brunch.io/docs/getting-started) to build site
     ++ May hold off on using Brunch as I've never used it with MEAN and there may be a more appropriate 'builder'
 + Materialize to make Responsive
@@ -29,13 +30,16 @@ darkeyesdesign/
 |--|--LICENSE
 |--|--README.md
 |
-|--stylesheets/
+|--sass/
 |  |--partials/
 |  |--|-- _base.scss
 |  |--|-- _.scss
 |  |--|-- _.scss
 |  |
-|  |--importer.scss
+|  |--screen.scss (imports partials)
+|
+|--stylesheets/
+|  |--...compiled css from screen.scss
 |
 |--media/
 |--|--...images
@@ -45,6 +49,8 @@ darkeyesdesign/
 |--|--directives/
 |--|--app.js
 |
+|--config.rb
+|--package.json
 |--README.md
 |--index.html`
 
