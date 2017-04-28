@@ -8,8 +8,9 @@
 + Casual users need not log in or sign up, although their scores will not be persisted.
 
 ## Dependencies
-+ Compass to organize CSS/SCSS
-+ Brunch to build site
++ [Compass](http://thesassway.com/beginner/getting-started-with-sass-and-compass) to organize CSS/SCSS
++ [Brunch](http://brunch.io/docs/getting-started) to build site
+    ++ May hold off on using Brunch as I've never used it with MEAN and there may be a more appropriate 'builder'
 + Materialize to make Responsive
 
 ## Stack
