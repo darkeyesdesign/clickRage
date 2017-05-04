@@ -1,13 +1,13 @@
-# ButtonClick!
+# DarkEyes Design - ClickRage!
 + A simple, web-based, stress reliever
 + Alots 5 seconds for the aggravated/nervous user to click a huge, ass button as many times as possible.
 + Casual users need not log in or sign up, although their scores will not be persisted.
 
 ## Currently using:
 + [Compass](http://thesassway.com/beginner/getting-started-with-sass-and-compass) to organize CSS/SCSS
-    ++ Dig into the functionality in `config.rb`
+    Dig into the functionality in `config.rb`
 + [Brunch](http://brunch.io/docs/getting-started) to build site
-    ++ May hold off on using Brunch as I've never used it with MEAN and there may be a more appropriate 'builder'
+    May hold off on using Brunch as I've never used it with MEAN and there may be a more appropriate 'builder'
 + Materialize to make Responsive
 
 ## Stack
