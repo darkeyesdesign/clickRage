@@ -70,5 +70,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 1, ../sass/partials/_base.scss */
 body {
   width: 0 auto;
-  background-color: green;
+  background-color: gray;
+}
+
+/* line 6, ../sass/partials/_base.scss */
+.header {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 11, ../sass/partials/_base.scss */
+#big-ass-button {
+  width: 100%;
+}
+
+/* line 2, ../sass/partials/_fonts.scss */
+body h1, body h2 {
+  font-family: 'Inknut Antiqua', serif;
 }
